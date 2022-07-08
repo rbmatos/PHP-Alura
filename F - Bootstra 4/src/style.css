@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url('fontes/Pacifico-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.img-carrossel-um{
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+}
+.img-carrossel-dois{
+    object-fit: cover;
+    height: 400px;
+}
+
+.carousel-caption h1.font-pacifico{
+    color: white;
+}
+
+.font-pacifico{
+    font-family: 'Pacifico', cursiva;
+}
+
+main h1.font-pacifico{
+    color: darkred;
+}
+
+.button-card, .modal-footer .btn.enviar{
+    background-color: darkred;
+    color: white;
+}
+
+article.card{
+    max-width: 18rem;
+    border-color: darkred;
+}
+
+img.card-img-top{
+    object-fit: cover;
+    height: 200px;
+}
+a.nav-link{
+    cursor: pointer;
+}
+footer{
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .carousel-caption h1{
+        display: none;
+    }
+}
